@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hibachi Menu</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <!-- Include JavaScript file -->
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </head>
 <body>
     <h1>Hibachi Menu</h1>
@@ -21,8 +23,5 @@
         </ul>
     </form>
     <a href="/cart">View Cart</a>
-
-    <!-- Include JavaScript file -->
-    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>
 </html>
